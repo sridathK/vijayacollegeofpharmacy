@@ -32,7 +32,7 @@ nav img{
     text-align: center;
     color: #129c73;
     font-size: 26px;
-    margin-left: 15%;
+    margin-left: 5%;
 }
 
 .college_adress{
@@ -635,6 +635,30 @@ h3{
 .location iframe{
     width: 100%;
 }
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+}
+  
+.location-col{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 0%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: .5s;
+    margin-left: 0%;
+    
+}
+
+.location-col img{
+    width: 100%;
+    border-radius: 10px;
+}
+
 
 .contact-us{
     width: 80%;
